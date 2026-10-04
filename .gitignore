@@ -1,0 +1,75 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env/
+.conda/
+conda.env
+
+# Packaging / build outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Linting / type checking
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.pytype/
+
+# Local environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project-specific local artifacts
+logs/
+*.log
+
+# Data / model outputs (common for ML projects)
+checkpoints/
+models/
+artifacts/
+outputs/
+runs/
+wandb/
+mlruns/
+
+# Optional: ignore local datasets if you prefer not to commit them
+# data/
+# datasets/
